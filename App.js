@@ -1,11 +1,21 @@
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import HomeHeader from './components/HomeHeader';
+import {useFonts} from 'expo-font'
 
-export default function App() {
+const App = () => {
+
+  const [loaded] = useFonts({
+    RedHatBold: require('./assets/fonts/RedHatDisplay-Bold.ttf'),
+    RedHatMedium: require('./assets/fonts/RedHatDisplay-Medium.ttf'),
+  });
+
+  if(!loaded) return null;
+
   return (
     <SafeAreaView>
+      <HomeHeader/>
       <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
     </SafeAreaView>
   );
 }
@@ -18,3 +28,5 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+export default App
