@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import HomeHeader from './components/HomeHeader';
 import {useFonts} from 'expo-font'
+import Categories from './components/Categories';
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
   return (
     <SafeAreaView>
       <HomeHeader/>
+      <Categories/>
       <Text>Open up App.js to start working on your app!</Text>
     </SafeAreaView>
   );
