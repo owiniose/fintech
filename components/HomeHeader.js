@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
         alignItems:"center"         
     },
     top: {
-        paddingTop:55,
+        paddingTop:35,
         flexDirection: 'row',
         alignItems: 'center',
         width:"100%",
