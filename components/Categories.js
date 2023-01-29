@@ -49,7 +49,11 @@ const Categories = () => {
           alignItems:"center",
           marginLeft:16,
           marginBottom:12,
+         justifyContent:"space-between"
         }} >
+          <View style={{
+            flexDirection:"row"
+          }} >
         <Text style={{
           
           fontFamily:"RedHatMedium",
@@ -63,6 +67,12 @@ const Categories = () => {
         }} >
           positions
         </Text>
+        </View>
+        <AntDesign name="arrowright" size={24} color="black" 
+          style={{
+            position:"relative",
+          }}
+        />
         </View>
       </View>
       <View style={{
