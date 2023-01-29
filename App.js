@@ -4,6 +4,7 @@ import HomeHeader from './components/HomeHeader';
 import {useFonts} from 'expo-font'
 import Categories from './components/Categories';
 import Listings from './components/Listings';
+import JobCards from './components/JobCards';
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
       <HomeHeader/>
       <Categories/>
       <Listings/>
+      <JobCards/>
       <Text>Open up App.js to start working on your app!</Text>
     </SafeAreaView>
   );
