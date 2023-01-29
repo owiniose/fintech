@@ -3,6 +3,7 @@ import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import HomeHeader from './components/HomeHeader';
 import {useFonts} from 'expo-font'
 import Categories from './components/Categories';
+import Listings from './components/Listings';
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
     <SafeAreaView>
       <HomeHeader/>
       <Categories/>
+      <Listings/>
       <Text>Open up App.js to start working on your app!</Text>
     </SafeAreaView>
   );

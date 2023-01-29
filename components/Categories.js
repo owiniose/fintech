@@ -7,7 +7,6 @@ const Categories = () => {
     <View style={{
       marginLeft: 24,
       marginTop: 16,
-      marginBottom:8,
     }}>
       <Text style={{
         fontFamily: "RedHatMedium",
@@ -94,7 +93,9 @@ const Categories = () => {
         </View>
         <Text style={{
           marginLeft:16,
-          marginBottom:8
+          marginBottom:8,
+          fontFamily:"RedHatMedium",
+            fontSize: 12,
         }} >Stripe, Webflow, Wordpress + 18 more</Text>
         <View style={{
           flexDirection: "row",
