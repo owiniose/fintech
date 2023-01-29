@@ -40,7 +40,9 @@ const Categories = () => {
         </View>
         <Text style={{
           marginLeft:16,
-          marginBottom:8
+          marginBottom:8,
+          fontFamily:"RedHatMedium",
+            fontSize: 12,
         }} >Facebook, Airbnb, Spotify + 72 more</Text>
         <View style={{
           flexDirection: "row",
@@ -83,7 +85,7 @@ const Categories = () => {
         <Text style={{
           marginLeft:16,
           marginBottom:8
-        }} >Stripe, Webflow, Spotify + 72 more</Text>
+        }} >Stripe, Webflow, Wordpress + 18 more</Text>
         <View style={{
           flexDirection: "row",
           alignItems:"center",
