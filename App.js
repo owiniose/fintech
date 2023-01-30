@@ -5,6 +5,7 @@ import {useFonts} from 'expo-font'
 import Categories from './components/Categories';
 import Listings from './components/Listings';
 import JobCards from './components/JobCards';
+import Menu from './components/Menu';
 
 const App = () => {
 
@@ -21,7 +22,7 @@ const App = () => {
       <Categories/>
       <Listings/>
       <JobCards/>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Menu/>
     </SafeAreaView>
   );
 }
