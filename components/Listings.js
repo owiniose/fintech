@@ -7,7 +7,7 @@ const Listings = () => {
     <View style={{
         marginLeft: 24,
         marginRight: 24,
-        marginTop: 16, 
+        marginVertical: 16, 
     }} >
         <View style={{
             flexDirection:"row",
